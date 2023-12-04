@@ -1,0 +1,2 @@
+# Win32WebView2Test
+Win32からWebView2を通じてJavaScriptを実行する
