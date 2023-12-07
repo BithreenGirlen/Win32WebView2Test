@@ -4,8 +4,11 @@ This is Win32 equivalent for [Executing Javascript on WPF WebView2](https://gith
 
 ## Background
 
-WPF has comfortable development environment, but built result has many files for runtime, and sometimes seems messy.  
-This is _l'essai_ to slim down the built result developping by Win32.
+WPF has comfortable development environment, but built result has many files for runtime, and sometimes seems messy.
+
+![WPF build](/image/001_WPF.jpg)
+
+This is _l'essai_ to slim down the built files developping by Win32.
 
 ## Key point
 
@@ -237,4 +240,7 @@ std::wstring CMainWindow::ExecuteDecryptFunctionOnWebPage(const std::wstring &ws
 
 ## Result
 
-Compact built files; one dll and one exe.
+Compact built files; one dll and one exe.  
+
+![Win32 build](/image/002_Win32.jpg)  
+
